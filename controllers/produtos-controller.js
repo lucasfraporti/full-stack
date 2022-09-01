@@ -13,7 +13,7 @@ let listaProdutos = [
 /* ================================================================= */
 
 exports.getApi = (req, res) => {
-    res.send({"mensagem": "Acessando o front"});
+    res.send({"mensagem": "Acessando o back"});
 };
 
 exports.getTodosProdutos = (req, res) => {
